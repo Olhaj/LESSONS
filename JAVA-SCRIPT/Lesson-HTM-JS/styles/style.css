@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #483d8b;
+}
+
+/* --------- CONTAINER FORM ---------- */
+.containerForm {
+  padding: 20px;
+  background-color: #008b8b;
+}
+
+/* --------- FORM ----------- */
+.fieldText {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 8px;
+}
+
+label {
+  color: white;
+  padding-bottom: 3px;
+}
+
+input {
+  height: 35px;
+  border: none;
+  padding: 5px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding-bottom: 4px;
+}
+
+.checkbox > span {
+  color: white;
+}
+
+p {
+  padding: 3px;
+  color: red;
+}
+
+/* --------- BUTTON ------------ */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  min-width: 49%;
+  padding: 10px;
+  border: none;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+.completionMessage {
+  color: white;
+}
