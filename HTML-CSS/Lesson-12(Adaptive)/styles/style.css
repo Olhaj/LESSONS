@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------- Адаптив ------- */
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text {
+  font-size: 30px;
+  max-width: 750px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.box {
+  max-width: 700px;
+  background-color: pink;
+  border: 10px solid green;
+  padding: 2%;
+}
+
+.box > button {
+  width: 95px;
+  height: 45px;
+} */
+
+/* @media screen and (max-width: 650px) {
+  .text {
+    font-size: 24px;
+    color: red;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .text {
+    font-size: 20px;
+    color: rgb(23, 17, 191);
+  }
+} */
+
+/* ----- Практика в классе ----- */
+body {
+  height: 100vh;
+  display: flex;
+}
+
+.sideBar {
+  min-width: 280px;
+  background-color: rgb(81, 156, 254);
+}
+
+.main {
+  background-color: rgb(241, 69, 189);
+  width: 100%;
+}
+
+.sideBarMobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .sideBar {
+    display: none;
+  }
+
+  .sideBarMobile {
+    display: flex;
+  }
+}

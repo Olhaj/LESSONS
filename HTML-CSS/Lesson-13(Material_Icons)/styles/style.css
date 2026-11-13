@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  background-image: url("../assets/images/Image20260806093225.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-x: 50%;
+  background-position-y: 50%;
+} */
+
+/* так мы центрируем куб с помощу позитирования */
+/* .parent {
+  width: 400px;
+  height: 250px;
+  background-color: teal;
+  position: relative;
+}
+.child {
+  width: 45px;
+  height: 45px;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   он позволяет здвегать центер тяжести 
+} */
+
+/* p {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+} */
+
+/* ----- practik ------- */
+nav {
+  background-color: pink;
+  padding: 20px 30px;
+}
+
+.navBar {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navBar > li {
+  background-color: #42abe7;
+  border-radius: 50%;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+}

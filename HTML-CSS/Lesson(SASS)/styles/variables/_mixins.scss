@@ -1,0 +1,33 @@
+$marginForContainer: 10px 15px;
+
+@mixin flexBox($align, $justify) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin bordered() {
+  border: 2px solid black;
+}
+
+body {
+  @include flexBox(start, end);
+}
+
+// @mixin importantText {
+//   color: blue;
+//   font-size: 20px;
+//   font-weight: bold;
+//   border: 2px solid green;
+// }
+
+// @mixin specialText {
+//     @include flexBox;
+//     @include importantText;
+
+// }
+
+// body {
+//   @include flexBox;
+//   @include importantText;
+// }

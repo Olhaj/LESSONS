@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.loginBtn {
+  padding: 5px 10px;
+  background-color: teal;
+  color: white;
+  border: 2px solid teal;
+  border-radius: 4px;
+}
+
+.loginBtn:active {
+  background-color: white;
+  color: teal;
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:active {
+  color: aquamarine;
+}
+
+input:checked {
+  width: 40px;
+}
+
+/* 
+ul > li:first-child {
+  color: red;
+} */
+/* 
+ul > li:last-child {
+  color: red;
+} */
+/* ul > li:nth-child(3) {
+  color: red;
+} */
+/* ul > li:nth-child(even) {
+  background-color: rgb(193, 193, 193);
+} */
+
+h1 {
+  color: aquamarine;
+}
+
+.title::before {
+  content: "=========";
+}
+
+.title::after {
+  content: "*********";
+}
+
+.username {
+  padding: 8px 12px;
+}
+
+.username::placeholder {
+  color: rgb(78, 76, 76);
+  font-style: italic;
+  font-size: 12px;
+}
+
+ul {
+  margin-left: 40px;
+}
+
+ul li::marker {
+  color: green;
+}
+
+.searchInput {
+  width: 180px;
+  padding: 4px 8px;
+  outline: none;
+  border: 2px solid white;
+  box-shadow: 2px 4px 7px 1px rgb(194, 194, 194);
+  border-radius: 8px;
+  transition: all 0.4s ease;
+}
+
+.searchInput:focus {
+  width: 250px;
+  border: 2px solid green;
+}
+
+.searchInput::placeholder {
+  font-size: 12px;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 1.5px;
+  transition: all 0.5s cubic-bezier(0.42, 0, 0.47, 1.71);
+}

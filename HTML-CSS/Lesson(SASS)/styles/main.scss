@@ -1,0 +1,18 @@
+@use "reset";
+@use "globals";
+@use "variables/mixins" as vars;
+
+// body {
+//   margin: vars.$marginForContainer;
+//   @include vars.flexBox(start, end);
+// }
+
+h1 {
+  color: bisque;
+  border: 2px solid green;
+}
+
+h2 {
+  @extend h1;
+  font-style: italic;
+}

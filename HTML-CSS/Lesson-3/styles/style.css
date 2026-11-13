@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.textContent {
+  font-style: italic;
+  font-weight: 600;
+}
+
+ul {
+  list-style-type: upper-roman;
+  margin-left: 45px;
+}
+
+table {
+  margin: 20px;
+}
+
+table,
+th,
+td,
+tr {
+  border: 1px solid green;
+}
+
+th,
+td {
+  padding: 10px;
+}
