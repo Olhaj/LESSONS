@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <!-- 3. Используя fetch для выполнения GET запроса к JSONPlaceholder
+(URL: https://jsonplaceholder.typicode.com/posts).
+Необходимо функцию рендера постов. Отобразить все посты. -->
+    <!-- <div class="posts"></div> -->
+
+    <!-- 4. Создать форму с полями Имя, Логин, Email, которая будет
+отправлять запрос на создание пользователя. Используем
+POST метод. -->
+
+    <h1>Создать пользователя</h1>
+    <form id="userForm">
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" placeholder="Введите имя" required>
+        <label for="username">Логин:</label>
+        <input type="text" id="username" name="username" placeholder="Введите логин" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        <button type="submit">Создать</button>
+    </form>
+
+    <div id="result"></div>
+</body>
+<script src="scripts/script.js"></script>
+
+</html>

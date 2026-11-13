@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 30px;
+}
+/* 1. Сделайте radio-кнопки как на изображении ниже: */
+/* .gender {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.gender > label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #555;
+  cursor: pointer;
+}
+
+.gender input[type="radio"] {
+  margin: 0;
+  accent-color: #48bd3c;
+} */
+
+/* 2. Сделайте стилизованный select как на изображении ниже:
+ */
+/* .select-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 590px;
+}
+
+.styled-select {
+  width: 100%;
+  height: 50px;
+  padding: 0 45px 0 16px;
+  border: 1px solid #a09b9b;
+  border-radius: 4px;
+  background-color: white;
+  color: #555;
+  font-size: 16px;
+  cursor: pointer;
+  /* Убираем стандартную стрелку браузера */
+/* appearance: none;
+  -webkit-appearance: none;
+} */
+
+/* Создаём чёрную стрелку */
+/* .select-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 18px;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 9px solid #111;
+  transform: translateY(-30%);
+  pointer-events: none;
+}
+
+.styled-select:focus {
+  outline: none;
+  border-color: #888;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}  */
+
+/* 3. Задача по HTML и CSS: Создайте кнопки используя единицы измерения em в
+необходимых местах
+● Кнопки трех размеров: обычная, маленькая (sm) и большая (xl). За основу
+берите обычную кнопку
+● Для разных размеров кнопок можно изменять только размер шрифта,
+остальное должно изменяться автоматически (внутренний отступ, скругление
+границ и тень)
+● Кнопки должны быть стилизованы одинаково при использовании тегов как a
+так и button
+ */
+/* .buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 1em;
+  background: white;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.6em 1.2em;
+  border: none;
+  border-radius: 0.7em;
+  background: #d4d4d4;
+  color: #222;
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.18);
+  cursor: pointer;
+  transition:
+    background-color 0.2s,
+    transform 0.2s;
+}
+
+.btn:hover {
+  background: #c5c5c5;
+}
+
+.btn:active {
+  transform: translateY(0.1em);
+  box-shadow: 0 0.12em 0.25em rgba(0, 0, 0, 0.18);
+} */
+
+/* Меняем только размер шрифта */
+/* .small {
+  font-size: 0.75em;
+}
+
+.big {
+  font-size: 1.5em;
+} */
+
+/* 4. Можно использовать только HTML и CSS.
+● Используйте ненумерованный список для создания структуры навигации
+● Выпадающее меню по умолчанию должно быть скрыто
+● При наведении на элемент навигации, если внутри есть выпадающее меню -
+показываем его
+● При перемещении курсора на выпадающее меню, оно не должно закрываться
+● Цвета можете выбирать по вашему вкусу, в примере использовались #444 и
+#333 для фона и цвет текста #fff  */
+/* Основной ненумерованный список */
+/* .nav {
+  display: flex;
+  max-width: 480px;
+  list-style: none;
+  background-color: #444;
+}
+
+.nav > li {
+  position: relative;
+}
+
+.nav a {
+  display: block;
+  padding: 12px 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav > li:hover > a {
+  background-color: #333;
+}
+
+/* Выпадающее меню по умолчанию скрыто */
+/* .dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 180px;
+  list-style: none;
+  background-color: #333;
+} */
+
+/* Показываем меню при наведении на родительский li */
+/* .nav > li:hover .dropdown {
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #444;
+}  */

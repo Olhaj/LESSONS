@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 5px;
+}
+
+h2 {
+  margin: 15px;
+  padding-bottom: 15px;
+}
+
+.line {
+  width: 40%;
+  border: 2px solid #b51119;
+  margin-bottom: 30px;
+}
+
+/* ------- FORM ------- */
+.form {
+  margin: 15px;
+  color: #b29b99;
+}
+
+.required {
+  color: #b51119;
+  margin: 3px 0 0 4px;
+}
+
+.username input,
+.userphone input {
+  width: 38%;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border: 2px solid #e6e0e0;
+  border-radius: 5px;
+}
+
+.username {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 5px 0 15px 0;
+}
+
+.userphone {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.checkbox {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.checkbox input {
+  margin-right: 5px;
+}
+
+.checkbox span {
+  color: #b51119;
+}
+
+.checkbox input[type="checkbox"] {
+  width: 13px;
+  height: 13px;
+  accent-color: #b51119;
+  margin: 0 6px 0 0;
+  vertical-align: middle;
+}
+
+.bnt {
+  width: 100px;
+  height: 30px;
+  font-size: 12px;
+  border-radius: 3px;
+  color: #fff;
+  border: 2px solid #b51119;
+  background-color: #b51119;
+}

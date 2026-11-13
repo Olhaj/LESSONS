@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  /* border: 6px solid rgb(0, 0, 0); */
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navBar {
+  /* border: 2px solid red; */
+  display: inline-flex;
+}
+
+.navList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  list-style: none;
+  gap: 10px;
+}
+
+.searchBar {
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.authBar {
+  gap: 5px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+span {
+  color: #ccc;
+}
+
+.no-underline {
+  padding: 5px;
+  border: 2px solid rgb(102, 23, 102);
+  border-radius: 5px;
+  background-color: rgb(102, 23, 102);
+  color: white;
+}

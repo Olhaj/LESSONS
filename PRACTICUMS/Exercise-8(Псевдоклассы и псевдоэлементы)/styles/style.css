@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+/* ---------- PA-1 ----------- */
+/* .container {
+  min-width: 800px;
+  min-height: 800px;
+  border: 2px solid brown;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 15px;
+}
+
+.container a:hover {
+  color: red;
+} */
+
+/* --------- PA-2 ---------------- */
+/* .container {
+  min-width: 800px;
+  min-height: 800px;
+  border: 2px solid brown;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 15px;
+}
+
+.container a:visited {
+  color: blueviolet;
+} */
+
+/* ------------ PA-3 ----------- */
+/* .container {
+  min-width: 800px;
+  min-height: 800px;
+  border: 2px solid brown;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 15px;
+}
+
+.container p:nth-child(even) {
+  color: rgb(226, 137, 22);
+} */
+
+/* ---------- PA-1 ------------ */
+/* .container {
+  min-width: 800px;
+  min-height: 800px;
+  border: 2px solid brown;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 15px;
+}
+
+.container h1::before {
+  content: "-------------";
+}
+
+.container h1::after {
+  content: "---------------";
+} */
+
+/* ----------- PA-2 ------------ */
+/* .container {
+  min-width: 800px;
+  min-height: 800px;
+  border: 2px solid brown;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 15px;
+}
+
+.container p:hover::first-line {
+  color: red;
+} */
+
+/* ----------- PA-3 ---------------- */
+.container {
+  min-width: 800px;
+  min-height: 800px;
+  border: 2px solid brown;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 15px;
+}
+
+.btn {
+  max-width: 100px;
+  min-height: 30px;
+  background-color: violet;
+  border: 3px solid violet;
+  border-radius: 8px;
+  transition: all 0.4s ease;
+}
+
+.btn:hover {
+  color: white;
+  background-color: rgb(114, 7, 111);
+}

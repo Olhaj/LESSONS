@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  margin: 0;
+}
+
+/* -----PA-1 --------- */
+/* .box {
+  width: 300px;
+  height: 300px;
+  background-color: pink;
+  position: relative;
+  top: 250px;
+  left: 40%;
+} */
+
+/* --------- PA-2 -------- */
+/* .container {
+  width: 800px;
+  height: 600px;
+  position: relative;
+  border: 2px solid #333;
+  background-color: white;
+}
+
+.box_1 {
+  width: 250px;
+  height: 220px;
+  background-color: pink;
+  position: relative;
+  left: 60px;
+  top: 80px;
+}
+
+.box_2 {
+  width: 550px;
+  height: 240px;
+  background-color: green;
+  position: relative;
+  top: -40px;
+  left: 220px;
+} */
+
+/* ---------PA-3 --------- */
+/* .container {
+  width: 700px;
+  height: 500px;
+  position: relative;
+  border: 2px solid #b51919;
+  background-color: white;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(177, 219, 10);
+  position: relative;
+  left: calc(50% - 100px);
+  top: calc(50% - 100px);
+} */
+
+/* ---------- PA-4 ---------- */
+.container {
+  width: 800px;
+  height: 700px;
+  border: 2px solid brown;
+  margin: 20px;
+}
+
+.box_1 {
+  width: 200px;
+  height: 400px;
+  background-color: red;
+  position: relative;
+  top: 40px;
+  left: 50px;
+}
+
+.box_2 {
+  width: 450px;
+  height: 220px;
+  background-color: green;
+  position: relative;
+  top: -109px;
+  left: 207px;
+}

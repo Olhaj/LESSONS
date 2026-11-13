@@ -1,0 +1,106 @@
+/* ----------- Exercise 2 ----------- */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.title {
+  font-size: 40px;
+  color: #f03333;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: 30px;
+  color: #12ac11;
+  line-height: 1.2;
+  text-decoration: underline;
+}
+
+.list {
+  font-size: 20px;
+  color: #444;
+  font-style: italic;
+  list-style-type: square;
+}
+
+/* -------------- Exercise 3 ----------------- */
+.form {
+  width: 30%;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  padding: 10px;
+  border: 2px solid pink;
+}
+
+input {
+  border: 1px solid violet;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: rgb(228, 54, 11);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(0, 150, 0);
+}
+
+/* -------------- Exercise 4 --------------- */
+.navigation {
+  margin-top: 40px;
+  margin-left: 40%;
+  display: flex;
+  items-align: center;
+}
+
+.navi-box {
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  background-color: #ddd;
+  color: #333;
+  margin: 6px;
+}
+
+.navi-box:hover {
+  background-color: #ccc;
+}
+
+.navi-box:active {
+  background-color: #d10953;
+  color: #fff;
+}
+
+/* -------------- Exercise 5 --------------- */
+.content a {
+  padding: 20px;
+  text-decoration: none;
+}
+
+.content a:hover {
+  background-color: #12ac11;
+  color: black;
+}
+
+.contacts a {
+  display: block;
+  padding: 5px 0 5px 0;
+  text-decoration: none;
+  color: black;
+}
+
+.contacts a:hover {
+  color: #f03333;
+}
